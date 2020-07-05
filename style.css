@@ -1,0 +1,298 @@
+body{
+    background-color: ivory;
+    font-family: sans-serif;
+    margin:0px;
+    color: white;
+    padding:0px;
+}
+
+header{
+    background: #24252a;
+    /* padding:20px 0; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 10%;
+    
+}
+
+p{
+    text-align: center;
+    color: black;
+}
+
+div.map-embed{
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.intro-text {   /*Coffee House*/
+    position: absolute;
+    top: 40%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+    
+  }
+
+.intro-text-tagline {        /*The best Coffee House in town is here*/
+    position: absolute;
+    top: 50%;
+    left: 69%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: left;
+    margin-top: 25px;
+  }
+
+.feature-box img{ 
+    /*font-size: 20px;*/
+    padding: none;
+    margin: none;
+    border: 0px;
+    position: relative;
+
+}
+
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 20px;
+    
+  }
+
+.column img{
+    border-radius: 20px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
+}
+
+
+
+header div img{   /*Nav bar center logo image*/
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    margin-right: auto;
+    padding: none;
+    /*background-color: white;*/
+
+}
+
+header li :hover{
+    
+    color: rgb(46, 135, 236);
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    
+
+}
+
+header div{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: none;
+}
+
+section{
+    background: white;
+    color:black;
+    padding:0px;
+    display: flex;
+}
+.coffee-cards{
+    background-color: ivory;
+}
+
+.column p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.price-table{
+    color: black;
+    font-size: 0.9em;
+    min-width: 400px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin: 25px 0;
+    /*width: 50%;*/
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.price-table thead tr{
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    background-color: #6f4e37;
+
+}
+
+.price-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+
+.price-table th,.price-table td{
+    padding: 12px 15px;
+}
+
+.price-table-div{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.price-table-title{
+    color: black;
+    text-align: center;
+    background-color: #e1c699;
+    padding: 10px;
+}
+
+.small-caption{
+    font-size: 10px;
+}
+
+.table-title{
+    text-align: center;
+    border: 1px black;
+    font-size: 30px;
+}
+
+section.price-table h2.table-head{
+    text-align: center;
+    border: 1px black;
+    background-color: brown;
+    width: 100%;
+}
+/*<caption class="table-title">Coffee Price List</caption>
+<caption class="small-caption">(All prices in rupees)</caption>*/
+
+
+a{                         /*Links in navBar*/
+    color: white;
+    text-decoration: none;
+}
+ul.nav-bar-ul{
+    margin:0px;
+    padding:0px;
+    display: flex;
+    flex-direction: row-reverse;
+    list-style-type: none;
+    
+}
+/*---------------- CONTACT PAGE ----------------*/
+
+.contact-h1{
+    text-align: center;
+    color: black;
+}
+
+form{
+    margin: 35px;
+}
+
+.input-field{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px;
+}
+
+.contact-box{
+    width: 500px;
+    background-color: #e1c699;
+    top: 70%;
+    left: 50%;
+    /*transform: translate(-50%,-50%);*/
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.textarea-field{
+    height: 150px;
+    padding-top: 10px;
+}
+
+.submit-button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+
+
+/*--------------------------------------------------*/
+
+/*---------------- LOCATIONS PAGE ----------------*/
+
+.loc-list{
+    color: black;
+    text-align: center;
+    
+    list-style-position: inside;
+    padding: 10px;
+    font-size: 19px;
+}
+
+/*.loc-list-ul{
+    display: inline-block;
+    padding-left: 0;
+}*/
+
+.loc-left-div {
+    float: left;
+    width: 50%;
+    align-items: center;
+    color: black;
+    
+    
+  }
+
+  
+
+/*--------------------------------------------------*/
+
+
+.links{                      /*Links in NavBar */
+    display:inline-block;
+    margin: 0 20px 0 0;
+    
+}
+
+/*div.disabled{
+    overflow-x: hidden;
+}*/
+
+
+
+footer{
+    background: black;
+    padding:10px 20px;
+    text-align: center;
+    color: grey;
+    position: relative;
+    bottom: 0;
+    /*width: 100%;*/
+    
+}
